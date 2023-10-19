@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<script src="https://kit.fontawesome.com/462fed6752.js" crossorigin="anonymous"></script>
+<style>
+    .container1{
+        height: 900px;
+        width: 660px;
+        margin-top:0%;
+        background-color: rgb(206, 199, 199);
+        border-radius: 4px;
+    }
+
+    .container2{
+        height: 750px;
+        width: 500px;
+        margin-top:0 auto;
+        margin-left:10%;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 4px;
+        position: relative;
+    }
+
+    .box1{
+        width: 50%;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        border-top: 2px;
+        border-color: rgb(58, 184, 85);
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 0px;
+        border-style: solid;
+        position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 10px;
+        float: left;
+    }
+    .box2{
+        width: 50%;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(191, 198, 194);
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 10px;
+        float: right;
+        background-color: rgb(180, 183, 185);
+    }
+    .user{
+        width: 430px;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(191, 198, 194);
+        border-radius: 2%;
+        position: relative;
+        top: 100px;
+        left: 7%;
+    }
+    
+    .user i{
+        position: relative;
+        top: 15px;
+        left: -95px;
+        color: rgb(191, 198, 194);
+    }
+    .user p{
+        position: relative;
+        top: -20px;
+        left: 80px;
+        color: rgb(191, 198, 194);
+        font-size: large;
+    }
+    .pass{
+        width: 430px;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(191, 198, 194);
+        border-radius: 2%;
+        position: relative;
+        top: 100px;
+        left: 7%;
+    }
+    .pass i{
+        position: relative;
+        top: 15px;
+        left: -187px;
+        color: rgb(191, 198, 194);
+    }
+    .pass p{
+        position: relative;
+        top: -20px;
+        left: -10px;
+        color: rgb(191, 198, 194);
+        font-size: large;
+    }
+    .form{
+        width: 430px;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(191, 198, 194);
+        border-radius: 2%;
+        position: relative;
+        top: 100px;
+        left: 7%;
+    }
+    .buttons{
+        width: 100%;
+        height:150px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        top: 85px;
+    }
+    .foot{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        top:30% ;
+    }
+</style>
+<body>
+    <div class="container1" >
+        <h2 style="position: relative;top:6px ;text-align: center; color: rgb(63, 66, 66);">Please Login To Continue</h2>
+        <div class="container2" >
+            <div class="box1">
+                Sign In
+            </div>
+            <div class="box2">
+                Sign Up
+            </div>
+
+            <div class="user">
+                <i class="fa-solid fa-user fa-lg"></i>
+                <p style="color: rgb(178, 182, 186);">Username or Email</p>
+            </div>
+            <br>
+            <div class="pass">
+                <i class="fa-solid fa-lock fa-lg"></i>
+                <p style="color: rgb(178, 182, 186);">Password</p>
+            </div>
+
+            <br>
+            <br>
+            <div class="form">
+                <input name="rem" type="checkbox" checked="" style="position: relative;left: -150px;">
+                <label for="remember" style="font-size: 20px;position: relative;left: -150px;">Remember me</label>
+                <p style="font-size: 20px;position: relative;top: -40px;left: 150px;color: rgb(118, 121, 123);">Forgot Password</p>
+            </div>
+
+            <div class="buttons">
+                <div class="signin">
+                    <button type="button" class="btn btn-primary" style="position: relative;top: 30px;left: 7px;width: 430px;height: 50px; border-radius: 6px;border-width:1px ;background-color: rgb(56, 164, 56);font-size: 20px;color: antiquewhite;"><b> Sign In</b></button>
+                    <br>
+                    <br>
+                    <p style="font-size: 28px;">____________ <span>or</span> ___________</p>
+                </div>
+            </div>
+
+            <div class="social">
+                <button type="button" class="btn btn-primary" style="position: relative;top: 100px;float: left;width: 35%;height: 50px;left: 10% ;border-radius: 6px;border-width:1px ;background-color: rgb(195, 41, 17);font-size: 20px;color: antiquewhite;"><i class="fa-brands fa-google" style="position: relative; left: -8%;"></i><b> Google</b></button>
+                <button type="button" class="btn btn-primary" style="position: relative;top: 100px;float: right;width: 35%;height: 50px;right: 10% ;border-radius: 6px;border-width:1px ;background-color: rgb(31, 121, 223);font-size: 20px;color: rgb(215, 230, 250);"><i class="fa-brands fa-facebook" style="position: relative;left: -6%;"></i><b> Facebook</b></button>
+                <button type="button" class="btn btn-primary" style="position: relative;top: 140px;float: left;width: 35%;height: 50px;left:10% ;border-radius: 6px;border-width:1px ;background-color: rgb(33, 71, 145);font-size: 20px;color: antiquewhite;"><i class="fa-brands fa-linkedin-in" style="position: relative;left: -6%;"></i><b> LinkedIn</b></button>
+                <button type="button" class="btn btn-primary" style="position: relative;top: 140px;float: right;width: 35%;height: 50px;right: 10% ;border-radius: 6px;border-width:1px ;background-color: rgb(32, 32, 32);font-size: 20px;color: antiquewhite;"><i class="fa-brands fa-github" style="position: relative;left: -6%;"></i><b> GitHub</b></button>
+            </div>
+
+            <br><br>
+            <div class="foot">
+                <p style="color: rgb(5, 135, 5);">Why create account?</p>
+                <p style="font-size: small;">By creating this account, you agree to our Privacy Policy & Cookie Policy.</p>
+            </div>
+            
+
+        </div>
+    </div>
+</body>
+</html>
